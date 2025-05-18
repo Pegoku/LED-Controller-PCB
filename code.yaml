@@ -1,0 +1,40 @@
+esphome:
+  name: led-controller
+  friendly_name: LED-Controller
+
+esp32:
+  board: esp32-c3-devkitm-1
+  framework:
+    type: arduino
+
+logger:
+
+api:
+  encryption:
+    key: "YOUR_API_ENCRYPTION_KEY"
+
+ota:
+  - platform: esphome
+    password: "YOUR_OTA_PASSWORD"
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+  ap:
+    ssid: "Led-Controller"
+    password: "FALLBACK_AP_PASSWORD"
+
+light:
+  - platform: monochromatic
+    name: "Light Bar"
+    output: gpio_light
+    id: light_bar1
+    icon: "mdi:ceiling-light"
+
+output:
+  - platform: ledc
+    pin: GPIO10
+    id: gpio_light
+    inverted: true
+
+captive_portal:
