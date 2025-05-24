@@ -25,19 +25,19 @@ A simple monochromatic LED controller for Home Assistant, powered by ESPHome on 
 
 
 ## BOM
-| Item Name           | What the item is for in your project | Item source                                                                 | Item price     | Total Price     |
-|---------------------|--------------------------------------|-----------------------------------------------------------------------------|----------------|-----------------|
-| JST XH connector    | Light connector                      | https://es.aliexpress.com/item/10050074608978V65.html                       | 1.22€          | 59.15€          |
-| SS2040FL Diode      | Reverse polarity protection          | https://es.aliexpress.com/item/1005009042615388.html                        | 5.39€          | 67.25 USD       |
-| 5.5mm jack          | PSU connector                        | https://es.aliexpress.com/item/10000000716763.html                          | 1.39€          |                 |
-| BS170               | Driver for power mosfet              | https://es.aliexpress.com/item/1005007109406326.html                        | 1.44€          |                 |
-| IRLZ34N             | Power Mosfet                         | https://es.aliexpress.com/item/1005007174349301.html                        | 1.90€          |                 |
-| 220 Ω resistor      | Mosfet series resistor               | https://es.aliexpress.com/item/1005006750101049.html                        | 1.08€          |                 |
-| 10 kΩ resistor      | Pullup resistor                      | https://es.aliexpress.com/item/1005006750101049.html                        | 1.08€          |                 |
-| XIAO ESP32C3        | MCU                                  | https://es.aliexpress.com/item/1005006828136326.html                        | 8.29€          |                 |
-| L7805CV             | Regulate 5V                          | https://es.aliexpress.com/item/1005004989595789.html                        | 1.69€          |                 |
-| PCB                 | The main PCB                         | https://aisler.com/                                                         | 35.67€         |                 |
-
+| Item Name           | What the item is for in your project | Item source                                                                             | Item price     | Total Price     |
+|---------------------|--------------------------------------|-----------------------------------------------------------------------------------------|----------------|-----------------|
+| JST XH connector    | Light connector                      | https://es.aliexpress.com/item/10050074608978V65.html                                   | 1.22€          | 77.15€          |
+| SS2040FL Diode      | Reverse polarity protection          | https://es.aliexpress.com/item/1005009042615388.html                                    | 5.39€          | 87.75 USD       |
+| 5.5mm jack          | PSU connector                        | https://es.aliexpress.com/item/10000000716763.html                                      | 1.39€          |                 |
+| BS170               | Driver for power mosfet              | https://es.aliexpress.com/item/1005007109406326.html                                    | 1.44€          |                 |
+| IRLZ34N             | Power Mosfet                         | https://es.aliexpress.com/item/1005007174349301.html                                    | 1.90€          |                 |
+| 220 Ω resistor      | Mosfet series resistor               | https://es.aliexpress.com/item/1005006750101049.html                                    | 1.08€          |                 |
+| 10 kΩ resistor      | Pullup resistor                      | https://es.aliexpress.com/item/1005006750101049.html                                    | 1.08€          |                 |
+| XIAO ESP32C3        | MCU                                  | https://es.aliexpress.com/item/1005006828136326.html                                    | 8.29€          |                 |
+| L7805CV             | Regulate 5V                          | https://es.aliexpress.com/item/1005004989595789.html                                    | 1.69€          |                 |
+| PCB                 | The main PCB                         | https://aisler.com/                                                                     | 35.67€         |                 |
+| ELEGOO PLA filament | Printing case                        | https://www.amazon.es/-/en/Filament-Printer-Dimensional-Accuracy-Printers/dp/B0CD77VHBZ | 18€            |                 |
 
 
 ## Configuration
