@@ -25,7 +25,7 @@ I also designed a case for the perfboard, so I could start using it.
 # May 18th: Did a PCB!
 Now I had everything I needed to start my PCB design.
 I used KiCad to design the PCB, reusing most of the schematic I used with the perfboard. I did most of the components THT so they would be easier to solder.
-![img](assets/PCB.jpg)
+![img](assets/PCB.png)
 I had to also redesign part of the case so it woukld fit the PCB.
-![img](assets/Case.jpg)
+![img](assets/Case.png)
 **Total time spent: 6h**
