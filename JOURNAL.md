@@ -3,7 +3,9 @@ title: "Led Controller PCB"
 author: "Pegoku"
 description: "An ESP32-C3 based LED controller PCB for Home Assistant."
 created_at: "2025-05-16"
+total_time_spent: "22h"
 ---
+
 # May 16th: Did a protoboard prototype!
 I wanted to test if the idea I had would work, so I made a prototype on a protoboard. 
 First, I used a XIAO ESP32C3, a few resistors and a Power Mosfet IRLZ34N. The leds didn't completely work, but I found out it was because I wasn't fully saturating the mosfet.
@@ -26,6 +28,6 @@ I also designed a case for the perfboard, so I could start using it.
 Now I had everything I needed to start my PCB design.
 I used KiCad to design the PCB, reusing most of the schematic I used with the perfboard. I did most of the components THT so they would be easier to solder.
 ![img](assets/PCB.png)
-I had to also redesign part of the case so it woukld fit the PCB.
+I had to also redesign part of the case so it would fit the PCB.
 ![img](assets/Case.png)
 **Total time spent: 6h**

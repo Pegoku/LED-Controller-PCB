@@ -5,12 +5,40 @@ A simple monochromatic LED controller for Home Assistant, powered by ESPHome on 
 - Brightness control via Home Assistant UI  
 - Over-the-air (OTA) updates  
 
-## Hardware Requirements
-- ESP32-C3 board (e.g. XIAO ESP32-C3)  
-- Monochromatic LED strip or LED bar  
-- Logic-level MOSFET/transistor (for driving higher currents)  
-- Suitable power supply (e.g. 5 V or 12 V matching LED strip voltage)  
-- Connecting wires  
+## Images
+<details>
+  <summary>Final project</summary>
+
+  ![Final](assets/prototypeCase.jpg)
+</details>
+<details>
+  <summary>Schematic</summary>
+
+  ![schematic](assets/Schematic.png)
+</details>
+<details>
+  <summary>PCB</summary>
+  
+  ![PCB design](assets/PCBEDA.png)
+  ![PCB render](assets/PCB.png)
+</details>
+
+
+## BOM
+| Item Name           | What the item is for in your project | Item source                                                                 | Item price     | Total Price     |
+|---------------------|--------------------------------------|-----------------------------------------------------------------------------|----------------|-----------------|
+| JST XH connector    | Light connector                      | https://es.aliexpress.com/item/10050074608978V65.html                       | 1.22€          | 23.48€          |
+| SS2040FL Diode      | Reverse polarity protection          | https://es.aliexpress.com/item/1005009042615388.html                        | 5.39€          | 26.9 USD        |
+| 5.5mm jack          | PSU connector                        | https://es.aliexpress.com/item/10000000716763.html                          | 1.39€          |                 |
+| BS170               | Driver for power mosfet              | https://es.aliexpress.com/item/1005007109406326.html                        | 1.44€          |                 |
+| IRLZ34N             | Power Mosfet                         | https://es.aliexpress.com/item/1005007174349301.html                        | 1.90€          |                 |
+| 220 Ω resistor      | Mosfet series resistor               | https://es.aliexpress.com/item/1005006750101049.html                        | 1.08€          |                 |
+| 10 kΩ resistor      | Pullup resistor                      | https://es.aliexpress.com/item/1005006750101049.html                        | 1.08€          |                 |
+| XIAO ESP32C3        | MCU                                  | https://es.aliexpress.com/item/1005006828136326.html                        | 8.29€          |                 |
+| L7805CV             | Regulate 5V                          | https://es.aliexpress.com/item/1005004989595789.html                        | 1.69€          |                 |
+
+
+
 
 ## Configuration
 
