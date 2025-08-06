@@ -3,7 +3,7 @@ title: "Led Controller PCB"
 author: "Pegoku"
 description: "An ESP32-C3 based LED controller PCB for Home Assistant."
 created_at: "2025-05-16"
-total_time_spent: "22h"
+total_time_spent: "23h"
 ---
 
 # May 16th: Did a protoboard prototype!
@@ -31,3 +31,12 @@ I used KiCad to design the PCB, reusing most of the schematic I used with the pe
 I had to also redesign part of the case so it would fit the PCB.
 ![img](assets/Case.png)
 **Total time spent: 6h**
+
+# August 6th: Building the project
+Today I built the project. I had to solder the components and assemble the case, but it was quite easy and quick.
+I used a 24V power supply I had lying around and connected it to the pcb. 
+The only problem I had was that I couldn't find the barrel jack connectors I ordered, so I used a JST one instead.
+
+![alt text](assets/PXL_20250806_171544299.MP.jpg)
+
+**Total time spent: 1h**

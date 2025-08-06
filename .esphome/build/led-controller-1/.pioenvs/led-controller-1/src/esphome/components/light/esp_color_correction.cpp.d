@@ -1,0 +1,65 @@
+.pioenvs/led-controller-1/src/esphome/components/light/esp_color_correction.cpp.o: \
+ src/esphome/components/light/esp_color_correction.cpp \
+ src/esphome/components/light/esp_color_correction.h \
+ src/esphome/core/color.h src/esphome/core/component.h \
+ src/esphome/core/optional.h src/esphome/core/helpers.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/heap/include/esp_heap_caps.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/heap/include/multi_heap.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/esp_common/include/esp_err.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/esp_common/include/esp_compiler.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/esp_common/include/esp_attr.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/freertos/config/include/freertos/FreeRTOSConfig.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/freertos/config/riscv/include/freertos/FreeRTOSConfig_arch.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/freertos/FreeRTOS-Kernel/include/freertos/projdefs.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/freertos/FreeRTOS-Kernel/include/freertos/portable.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/freertos/FreeRTOS-Kernel/include/freertos/deprecated_definitions.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos/portmacro.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/esp_hw_support/include/spinlock.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/esp_hw_support/include/esp_cpu.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/soc/esp32c3/include/soc/soc_caps.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/riscv/include/riscv/rv_utils.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/soc/esp32c3/include/soc/assist_debug_reg.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/soc/esp32c3/include/soc/soc.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/esp_common/include/esp_assert.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/esp_common/include/esp_bit_defs.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/soc/esp32c3/include/soc/reg_base.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/soc/esp32c3/include/soc/interrupt_reg.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/soc/esp32c3/include/soc/interrupt_core0_reg.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/riscv/include/riscv/csr.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/riscv/include/riscv/encoding.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/riscv/include/riscv/interrupt.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/riscv/include/esp_private/interrupt_intc.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/riscv/include/esp_private/interrupt_deprecated.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/riscv/include/riscv/csr_pie.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/esp_hw_support/include/esp_intr_alloc.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/esp_hw_support/include/esp_intr_types.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/esp_common/include/esp_macros.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/esp_common/include/esp_assert.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/esp_rom/include/esp_rom_sys.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/soc/esp32c3/include/soc/reset_reasons.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/esp_system/include/esp_system.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/esp_common/include/esp_idf_version.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/newlib/platform_include/esp_newlib.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/esp_timer/include/esp_timer.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/esp_hw_support/include/esp_etm.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/freertos/FreeRTOS-Kernel/include/freertos/mpu_wrappers.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/freertos/esp_additions/include/freertos/idf_additions.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/freertos/FreeRTOS-Kernel/include/freertos/task.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/freertos/FreeRTOS-Kernel/include/freertos/list.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/freertos/FreeRTOS-Kernel/include/freertos/queue.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/freertos/FreeRTOS-Kernel/include/freertos/task.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/freertos/FreeRTOS-Kernel/include/freertos/semphr.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/freertos/FreeRTOS-Kernel/include/freertos/queue.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/freertos/FreeRTOS-Kernel/include/freertos/stream_buffer.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/freertos/FreeRTOS-Kernel/include/freertos/message_buffer.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/freertos/FreeRTOS-Kernel/include/freertos/stream_buffer.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/freertos/FreeRTOS-Kernel/include/freertos/event_groups.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/freertos/FreeRTOS-Kernel/include/freertos/timers.h \
+ src/esphome/components/light/light_color_values.h \
+ src/esphome/components/light/color_mode.h src/esphome/core/log.h \
+ src/esphome/core/log_const_en.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/log/include/esp_log.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/log/include/esp_log_internal.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-log.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/esp_rom/include/esp32c3/rom/ets_sys.h

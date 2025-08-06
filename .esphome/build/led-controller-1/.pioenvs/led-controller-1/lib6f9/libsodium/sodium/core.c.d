@@ -1,0 +1,20 @@
+.pioenvs/led-controller-1/lib6f9/libsodium/sodium/core.c.o: \
+ .piolibdeps/led-controller-1/libsodium/libsodium/src/libsodium/sodium/core.c \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/newlib/platform_include/assert.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/qio_qspi/include/sdkconfig.h \
+ /home/pegoku/.platformio/packages/framework-arduinoespressif32-libs/esp32c3/include/newlib/platform_include/time.h \
+ .piolibdeps/led-controller-1/libsodium/libsodium/src/libsodium/include/sodium/core.h \
+ .piolibdeps/led-controller-1/libsodium/libsodium/src/libsodium/include/sodium/export.h \
+ .piolibdeps/led-controller-1/libsodium/libsodium/src/libsodium/include/sodium/crypto_generichash.h \
+ .piolibdeps/led-controller-1/libsodium/libsodium/src/libsodium/include/sodium/crypto_generichash_blake2b.h \
+ .piolibdeps/led-controller-1/libsodium/libsodium/src/libsodium/include/sodium/crypto_onetimeauth.h \
+ .piolibdeps/led-controller-1/libsodium/libsodium/src/libsodium/include/sodium/crypto_onetimeauth_poly1305.h \
+ .piolibdeps/led-controller-1/libsodium/libsodium/src/libsodium/include/sodium/crypto_scalarmult.h \
+ .piolibdeps/led-controller-1/libsodium/libsodium/src/libsodium/include/sodium/crypto_scalarmult_curve25519.h \
+ .piolibdeps/led-controller-1/libsodium/libsodium/src/libsodium/include/sodium/crypto_stream_chacha20.h \
+ .piolibdeps/led-controller-1/libsodium/libsodium/src/libsodium/include/sodium/crypto_stream_salsa20.h \
+ .piolibdeps/led-controller-1/libsodium/libsodium/src/libsodium/include/sodium/randombytes.h \
+ .piolibdeps/led-controller-1/libsodium/libsodium/src/libsodium/include/sodium/runtime.h \
+ .piolibdeps/led-controller-1/libsodium/libsodium/src/libsodium/include/sodium/utils.h \
+ .piolibdeps/led-controller-1/libsodium/libsodium/src/libsodium/include/sodium/private/implementations.h \
+ .piolibdeps/led-controller-1/libsodium/libsodium/src/libsodium/include/sodium/private/mutex.h

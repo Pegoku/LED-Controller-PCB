@@ -1,0 +1,10 @@
+esphome/noise-c@0.1.10
+DNSServer
+Networking
+ESPmDNS
+WiFi
+FS
+ESP32 Async UDP
+ESP32Async/AsyncTCP@3.4.5
+ESP32Async/ESPAsyncWebServer@3.7.10
+Update
